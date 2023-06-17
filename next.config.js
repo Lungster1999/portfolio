@@ -30,7 +30,6 @@ experimental: {
   },
 };
 
-  };
   
   module.exports = nextConfig;
   
