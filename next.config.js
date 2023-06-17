@@ -15,6 +15,21 @@ const nextConfig = {
       config.output.publicPath = `${nextConfig.assetPrefix || ''}/_next/`;
       return config;
     },
+
+// Configure the images feature
+experimental: {
+    images: {
+      domains: ['https://static.wixstatic.com',
+      'https://upload.wikimedia.org',
+      'https://www.ctelecoms.com.sa',
+      'https://www.freecodecamp.org',
+      'https://root-it.uk',
+      'data:image',
+      'https://lh3.googleusercontent.com'], // Add the domains from which you will load images
+    },
+  },
+};
+
   };
   
   module.exports = nextConfig;
