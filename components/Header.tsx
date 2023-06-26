@@ -27,11 +27,11 @@ const Header = (props: Props) => {
                         bgColor='transparent'
                         fgColor='gray'
                         />
-            <SocialIcon url = "https://youtube.com"
+            <SocialIcon url = "https://github.com/Lungster1999"
                         bgColor='transparent'
                         fgColor='gray'
                         />
-            <SocialIcon url = "https://youtube.com"
+            <SocialIcon url = "https://www.instagram.com/lungile_99/"
                         bgColor='transparent'
                         fgColor='gray'
                         />
